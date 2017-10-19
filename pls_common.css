@@ -59,6 +59,9 @@ button:hover{cursor: pointer}
 .red{color: #f00}
 .grey{color: #888}
 
+.wid20{width: 20%;float: left}
+.wid44{width: 44%;float: left}
+
 /*对齐部分*/
 .clear{clear: both}
 .float-right {  float: right;  }
@@ -114,6 +117,7 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 .banner-box .hd {  position:absolute;  bottom:16px;  right:40px;  z-index:100;  }
 .banner-box .hd ul li{  background:#fff;  width: 8px;  height: 8px;  border-radius: 50%;  float:left;  margin-left:10px;  }
 .banner-box .hd ul li.on{  background:#2577bc;  }
+.banner-box .bd ul li p{position: absolute; color: #fff;  background: rgba(0,0,0,0.7);  z-index: 9;  height: 40px;  line-height: 40px;  width: 100%;  padding-left: 30px;}
 /*banner E*/
 
 /***************内容板块 S***************/
@@ -146,8 +150,8 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 /***************内容板块 E***************/
 
 /***************尾部样式 S****************/
-.footer{  width: 100%; overflow: hidden;   background:#2f475b;  clear: both;  margin-top:15px;  }
-.footer .e-box{  padding-top:30px; margin:0 auto;  }
+.footer{  width: 100%; overflow: hidden;  background:#2f475b;  clear: both;  margin-top:15px;  }
+.footer .container{  padding-top:30px; margin:0 auto;padding-bottom: 30px}
 .footer .e-box p{  line-height:34px;  color:#fff;  text-align:center;  }
 .footer .e-box img{  width: 40px;  height: 50px;  }
 /***************尾部样式 E***************/
@@ -161,11 +165,13 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 
 /***************弹框样式 S***************/
 .mask{width:100%;height: 100%;background:rgba(0,0,0,0.4);position: fixed;top: 0;left: 0}
-.mask ul{width: 400px;height: 300px;border: 1px solid #1e50a2;background: #fff;position: fixed;top: 50%;left: 50%;margin: -150px 0 0 -200px}
+.mask ul{width: 400px;height: 270px;border: 1px solid #1e50a2;background: #fff;position: fixed;top: 50%;left: 50%;margin: -150px 0 0 -200px}
 .mask ul .title{background: #2577bc;}
 .mask ul .title h4{width: 95%;float: left}
 .mask ul .title span:hover{cursor: pointer}
 .mask ul div{padding:10px 20px}
+.mask ul .content{height: 100px;overflow: hidden}
+.mask ul .btn_group input{margin: auto 3%}
 
 /***************弹框样式 E***************/
 
@@ -209,9 +215,14 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 .p_discuss{width: 100%;margin-top: 15px}
 .p_discuss .p_content{width:1086px}
 .p_discuss .line_bottom{width: 1160px;}
-/*.p_discuss .p_content .discuss_list{padding:20px;border: 1px solid #cecece}*/
 .p_discuss .content h2{font-size: 18px;color: #343434;line-height: 36px;}
-.p_discuss .content .discuss_input{padding:20px;border: 1px solid #cecece}
+.p_discuss .content .input-text,.p_discuss .content .input-ta{width:95%}
+.p_discuss .content .discuss_input{height:auto;overflow:hidden;margin:10px 0 30px 0;padding:20px;border: 1px solid #cecece;position: relative}
+.p_discuss .content .discuss_input .msg{font-size:20px;width: 100%;height: 492px;background: rgba(0,0,0,0.7);text-align: center;line-height: 472px;position: absolute;top: 0;left: 0}
+.p_discuss .content .discuss_input .msg a{margin: 0 20px}
+.p_discuss .content .discuss_input .verification{width:25%;display: inline-block;float: left;margin-left: 20%}
+.p_discuss .content .discuss_input .verification img{width:36%;float: left}
+
 .p_discuss .content .discuss_list li{border-bottom: 1px dashed #eee;padding: 10px 0}
 .p_discuss .content .discuss_list .time{width:10%;display:block;float:left;text-align: right;}
 .p_discuss .content .discuss_list .name{width:15%;display:block;float:left;text-align: right;color: #1e50a2;m}
@@ -309,6 +320,25 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 .l6_lists .cont .sup{position:absolute;top:70px;right:15px;width:115px;height:46px;line-height:46px;background:#005cac;font-size:18px;text-align: center;border-radius:5px;}
 .l6_lists .cont .sup a{color:#fff;line-height:46px }
 
+/*--------------list6b --------------*/
+/*l6b_table_l*/
+.l6b_table_l{width: 250px}
+.l6b_table_l .content{width: 210px}
+.l6b_table_l .content li{height: 40px;line-height: 40px;border-bottom: 1px solid #eee}
+.l6b_table_l .content li.active{color: #005cac}
+.l6b_table_l .content li:hover{color: #005cac;cursor: pointer}
+
+/*.l6b_table_r*/
+.l6b_table_r{width: 935px}
+.l6b_table_r .content, .l6b_table_r .condition{width: 895px;}
+.l6b_table_r table{width: 100%;line-height: 40px;font-size:14px;text-align: center}
+.l6b_table_r table th{background: #768a9a;border-right: 1px solid #fff;color: #fff}
+.l6b_table_r p.content>span{width: 60%}
+.l6b_table_r p.content>span button{width: 10%;border-radius: 2px}
+.l6b_table_r p.content  input.input-text{width: 50%;float: right}
+
+
+
 /* l6a_tuwen */
 .l6a_tuwen{background:#fff;overflow: hidden;width: 100%}
 .l6a_tuwen .box li{width:220px;margin:15px 0 0px 15px;float:left;overflow:hidden;border:1px solid #ddd;padding-bottom:7px;}
@@ -391,6 +421,7 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 /*--------------Page5 --------------*/
 .p5_content{width: 1086px}
 
+
 /*--------------Page6 --------------*/
 /*p6_detail*/
 .p6_detail{width: 873px}
@@ -413,8 +444,6 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 .p6a_table_l .organ li{width:80%;padding: 0 10%;background: #cecece;border-bottom: 1px solid #fff;line-height: 40px}
 .p6a_table_l .organ ul li{background: #f1f1f1;}
 .p6a_table_l .organ li:hover,.organ ul li:hover{cursor: pointer}
-/*.p6a_table_r .organ ul{display: none}*/
-/*.p6a_table_r .organ ul.show{display: block}*/
 .p6a_table_r .content ul{width:820px;border: 1px solid #cecece;float: left;margin: 10px auto}
 .p6a_table_r .content ul li{width: 100%;border-bottom: 1px solid #cecece;line-height: 40px;float: left}
 .p6a_table_r .content ul li span{width:28%;display: block;padding:0 5%;float: left;background: #f1f1f1;border-right: 1px solid #cecece}
@@ -423,11 +452,8 @@ a.btnBlue{font-size: 18px;background:#2577bc; text-align: center;padding: 4px 6p
 .p6a_table_r .content ul li.no_bottom{border-bottom: none}
 .p6a_table_r .content ul li.p_text span{line-height: 114px}
 .p6a_table_r .content ul li.p_text p{line-height: 26px;padding: 5px 8%;}
-/*选项卡右侧内容样式添加*/
-
-/*.p6a_table_select{display: none}*/
-/*.show{display: block}*/
-
+.p6a_table_r .content .btn{margin:60px auto 0 auto;width: 60%}
+.p6a_table_r .content .btn div{margin: 30px 3% 10px 3%}
 
 /*--------------Page7 --------------*/
 .p7_left{width: 60%}
