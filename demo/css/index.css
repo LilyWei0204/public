@@ -1,0 +1,60 @@
+.nav li{width: 20%}/*大导航需要的宽度，修改百分比*/
+
+.rel_red{color: red; margin-right: 5px;}
+
+input,textarea{margin: 0;padding: 0;border: 1px solid #dedede;}
+.button_group{width: 100%;overflow: hidden;text-align: center}
+.button{ border: medium none;  color: #fff;  cursor: pointer;  font-size: 16px;  height: 45px;  line-height: 45px; margin: 20px 30px 0 0; width: 130px;border-radius: 8px;-webkit-border-radius:8px;-moz-border-radius: 8px; -o-border-radius:8px;}
+
+/*按钮颜色自定义*/
+.f60{background: #f60 none repeat scroll 0 0;}
+
+
+label.error{display: block;color: red;}
+.rel_con{width: 100%;overflow: hidden;background: #fff;margin:30px auto 0;padding: 30px 0;}
+.rel_table{ width:620px;margin: 0 auto;/*border-left:1px solid #dedede;border-top:1px solid #dedede;*/}
+.rel_table td{font-size: 14px;/*border-bottom: 1px solid #dedede;border-right: 1px solid #dedede;*/padding:15px 12px;}
+.rel_table_bg{/*background: #fafafa none repeat scroll 0 0; */text-align: right;}
+.rel_table td input[type=radio]{margin:0 8px 0 30px;}
+.rel_table td input[type=text]{width: 368px;height: 40px;}
+.rel_table td select{width: 380px;height: 28px;}
+.rel_table td input[type=text]{padding: 0 5px;}
+#relSelect{position: relative; display: inline-block;}
+#relSelect::after{
+    content                 : "\25bc";
+    position                : absolute;
+    top                     : 1px;
+    right                   : 1px;
+    bottom                  : 0;
+    width                   : 20pt;
+    height                  : 26px;
+    line-height             : 24px;
+    vertical-align          : middle;
+    text-align              : center;
+    background              : #f3f3f3;
+    color                   : #858585;
+    -moz-border-radius       : 0 6px 6px 0;
+    -webkit-border-radius    : 0 6px 6px 0;
+    border-radius           : 0 6px 6px 0;
+    pointer-events          : none;
+}
+a.rel_send{padding: 8px 10px;background: #2577BC;color: #fff;font-size: 16px;line-height: 40px;margin-left:15px;}
+
+
+
+.rel_select_input{width:400px;margin: 50px auto;position: relative;}
+.rel_input{width:100%;overflow:hidden;border: 1px solid #dedede; }
+.rel_input input{width: 377px;float: left;}
+.rel_input span{display: inline-block;width: 20px;height: 20px;
+    background: url("../img/combo_arrow.png") no-repeat;}
+
+.rel_select{width:100%;height:200px;overflow:auto;position: absolute;top:26px;left:0;display: none;}
+.rel_option{background: red;}
+
+
+
+
+
+
+
+

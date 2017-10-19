@@ -1,0 +1,132 @@
+/*
+* @Author: Marte
+* @Date:   2017-10-17 17:37:45
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-18 19:57:26
+*/
+/***************功能公共样式***************/
+
+/***************功能公共样式***************/
+
+.font-color{
+    color:#343434;
+}/*主体字体颜色黑色*/
+
+.border-b-color{
+    border-bottom:1px solid #cdcdcd;
+}/*下边框浅色代码*/
+
+.input-button{
+    width:100%;
+    height:42px;
+    border:none;
+    text-align:center;
+    line-height:42px;
+    border-radius:3px;
+    cursor:pointer;
+}/*无背景颜色填充，和字体颜色填充按钮样式*/
+
+.input-text{
+    border:1px solid #cdcdcd;
+    height:42px;
+    width:80%;
+    line-height:42px;
+    padding-left:5px;
+    border-radius:3px;
+    color:#343434;
+    margin:0 15px;
+    font-size:16px;
+}/*input-text输入框样式，无固定宽度*/
+.margin-top-30{
+    margin-top:30px;
+}/*input输入框样式间隔*/
+
+.b-color{
+    background-color:#2577bc;
+    color:#fff;
+}/*主色蓝色背景，字体白色*/
+
+.box-shadow{
+    box-shadow: 0px 2px 8.28px 0.72px rgba(52, 53, 54, 0.13);
+}/*常用阴影*/
+
+.select-box{
+   height:42px;
+   line-height:42px;
+   color:#343434;
+   font-size:14px;
+   border:1px solid #cdcdcd;
+   width:100%;
+   border-radius:3px;
+   margin:0 15px;
+}
+.select-box option{
+    list-style:none;
+    line-height:42px;
+    height:42px;
+    width:100%;
+}/*下拉框样式*/
+
+.m-font-rad{
+color:red;
+padding:0 5px;
+}/*必填选项字体颜色和格式*/
+
+label.error{
+    color:#ff2d51;
+    font-size:16px;
+    line-height:32px;
+}/*错误提示字体颜色，大小*/
+input.error{
+    border:1px solid #ff2d51;
+}
+.input-ta{
+    width:80%;
+    line-height:30px;
+    color:#343434;
+    padding:10px 5px;
+    font-size:14px;
+    border:1px solid #cdcdcd;
+    height:200px;
+    margin:0 15px;
+}/*输入文本样式*/
+
+.b-color-submit{
+    color:#fff;
+    background-color:#3a9aeb;
+}
+.b-color-submit:hover{
+    color:#fff;
+    background-color:#2984d1;
+}/*提交和确定背景色*/
+
+.b-color-send2{
+    background-color:#adacab;
+    color:#fff;
+}
+.b-color-send2:hover{
+    color:#fff;
+    background-color:#998f84;
+}/*发送后背景色*/
+.b-color-send{
+    background-color:#fda65c;
+    color:#fff;
+}
+.b-color-send:hover{
+    background-color:#d88640;
+    color:#fff;
+}/*发送前背景色*/
+.border-focus{
+    border:1px solid #3a9aeb;
+}
+/***************演示样式***************/
+.in-center{
+    width:1200px;
+    height:auto;
+    overflow:hidden;
+    margin:0 auto;
+    background:#fff;
+    padding:0 20px 50px;
+
+}
+/***************演示样式***************/
