@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-10-17 17:37:45
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-10-18 19:57:26
+* @Last Modified time: 2017-10-19 19:47:03
 */
 /***************功能公共样式***************/
 
@@ -107,7 +107,18 @@ input.error{
 .b-color-send2:hover{
     color:#fff;
     background-color:#998f84;
-}/*发送后背景色*/
+}
+.send0{
+    background-color:#adacab;
+    color:#fff;
+}
+.send0:hover{
+    background-color:#adacab;
+    color:#fff;
+}
+
+
+/*发送后背景色*/
 .b-color-send{
     background-color:#fda65c;
     color:#fff;
@@ -115,7 +126,18 @@ input.error{
 .b-color-send:hover{
     background-color:#d88640;
     color:#fff;
-}/*发送前背景色*/
+}
+
+.send1{
+    background-color:#fda65c;
+    color:#fff;
+}
+.send1:hover{
+    background-color:#d88640;
+    color:#fff;
+}
+
+/*发送前背景色*/
 .border-focus{
     border:1px solid #3a9aeb;
 }
